@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.canada {
+  margin: 0 auto;
+  flex-wrap: wrap; 
+  text-align: center;
+  background-image: url(https://i.imgur.com/pdO5PRk.png);
+  background-size: cover;  
+  padding: 250px 0;
+  background-repeat: no-repeat;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  box-shadow:  inset 0px -30px 9px 0px #06112a;
+}
+
+header {
+  background-color: #06112a;
+}
+
+.canada > p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2rem
+}
+
+.canada > h1 {
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+.canada > span {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2rem;
+  border: solid 2px white;
+  padding: 1% 3%;
+}
+
+.icons {
+  max-width: 950px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Sans';
+}
+
+.icon01::before {
+  content: url(https://i.imgur.com/E0yrQoA.png);
+  margin-right: 30px;
+  border: solid 2px white;
+  padding: 10px 15px;
+}
+
+.icon02::before {
+  content: url(https://i.imgur.com/pEuPH53.png);
+  margin-right: 30px;
+  border: solid 2px white;
+  padding: 15px 15px;
+}
+
+.icon03::before {
+  content: url(https://i.imgur.com/Oejv1Sw.png);
+  margin-right: 30px;
+  border: solid 2px white;
+  padding: 10px 15px;
+}
+
+.icon > p > span {
+  display: block;
+}
+
