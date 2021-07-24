@@ -178,4 +178,25 @@ main > section:nth-child(2) > a {
 
 .watch {
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.watchimg {
+  display: flex;
+  flex-direction: column;
+}
+
+.watchimg > img:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.watch > section:nth-child(2) {
+  align-self: flex-end;
+  transform: rotate(-90deg);
+  font-size: 1.5rem;
+  margin-bottom: 10%;
+}
+
+.watch > section > p {
+  transform: rotate(-90deg);
 }
