@@ -6,8 +6,8 @@
 .container {
   max-width: 950px;
   display: flex;
-  flex-wrap: wrap;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .canada {
@@ -104,8 +104,7 @@ main > section:nth-child(2) > a {
 }
 
 .h2-top {
-  font-size: 2.5rem;
-  font-family: 'Lora';
+  font-size: 3rem;
   max-width: 950px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -129,9 +128,54 @@ main > section:nth-child(2) > a {
 .topcities > section > section {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .topcities > section > section > a {
   text-decoration: none;
   color: #da6d09;
+}
+
+.h2-center {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.process {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.process > section > h3 {
+  font-size: 3rem;
+  color: #6f6f6f;
+}
+
+.container-no-wrap {
+  max-width: 950px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.process > section > p:nth-child(3) {
+  max-width: 70%;
+  margin-top: 20px
+}
+
+.process > section > p:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+.process > section:nth-child(2) {
+  align-self: center;
+}
+
+.process > section:nth-child(3) {
+  align-self: flex-end;
+}
+
+.watch {
+  margin-top: 100px;
 }
