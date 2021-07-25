@@ -179,6 +179,7 @@ main > section:nth-child(2) > a {
 .watch {
   margin-top: 100px;
   margin-bottom: 100px;
+  justify-content: space-between;
 }
 
 .watchimg {
@@ -190,13 +191,21 @@ main > section:nth-child(2) > a {
   margin-bottom: 30px;
 }
 
-.watch > section:nth-child(2) {
-  align-self: flex-end;
-  transform: rotate(-90deg);
-  font-size: 1.5rem;
-  margin-bottom: 10%;
+.watch > section > h2 {
+  writing-mode: vertical-rl;
+  font-size: 3rem;
+  transform: rotate(-180deg);
 }
 
 .watch > section > p {
-  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  font-family: 'Noto Sans';
+  font-size: 0.87rem;
 }
+
+.watch > section:nth-child(2) {
+  display: flex;
+}
+
+
