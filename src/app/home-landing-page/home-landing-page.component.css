@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   max-width: 950px;
   display: flex;
@@ -178,7 +182,7 @@ main > section:nth-child(2) > a {
 
 .watch {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   justify-content: space-between;
 }
 
@@ -208,4 +212,13 @@ main > section:nth-child(2) > a {
   display: flex;
 }
 
+.marcas {
+  justify-content: space-between;
+}
 
+footer {
+  margin: 150px auto 50px auto;
+  max-width: 950px;
+  display: flex;
+  justify-content: space-between;
+}
