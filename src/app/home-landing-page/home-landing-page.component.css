@@ -143,6 +143,15 @@ main > section:nth-child(2) > a {
     text-align: left;
   }
 
+  .process {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 1250px) {
   .topcities {
     flex-direction: column;
     align-items: center;
@@ -155,13 +164,8 @@ main > section:nth-child(2) > a {
   .h2-top {
     justify-content: center;
   }
-
-  .process  {
-    align-items: center;
-    flex-direction: column;
-  }
-
 }
+
 
 .h2-top {
   font-size: 3rem;
@@ -203,9 +207,11 @@ main > section:nth-child(2) > a {
 }
 
 .process {
-  display: flex;
   justify-content: space-between;
   height: 350px;
+  max-width: 950px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .process > section > h3 {
@@ -240,6 +246,7 @@ main > section:nth-child(2) > a {
   margin-top: 150px;
   margin-bottom: 150px;
   justify-content: space-between;
+  max-width: 950px;
 }
 
 .watchimg {
