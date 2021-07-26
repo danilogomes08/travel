@@ -119,6 +119,10 @@ main > section:nth-child(2) > a {
 
 @media (max-width: 1000px) {
 
+  .canada > p {
+    text-align: center;
+  }
+
   .icons {
     justify-content: space-around;
   }
