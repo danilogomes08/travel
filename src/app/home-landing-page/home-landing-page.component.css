@@ -131,6 +131,7 @@ main > section:nth-child(2) > a {
     justify-content: center;
   }
 
+
   main > section {
     margin-bottom: 25px;
   }
@@ -143,10 +144,46 @@ main > section:nth-child(2) > a {
     text-align: left;
   }
 
-  .process {
+  .h2-top {
+    justify-content: center;
+  }
+
+/*  .process {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+  }*/
+
+  .process > section {
+    display: none;
+  }
+
+  .watch {
+    flex-direction: column;
+  }
+
+  .watch > section, .watch > section > h2 {
+    display: none;
+  }
+
+  .watchimg > img {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .marcas > img {
+    width: 100px;
+    margin-bottom: 50px;
+  }
+
+  .marcas {
+    flex-direction: column;
+    align-content: center;
+  } 
+
+  .container-footer {
+    flex-direction: column;
+    text-align: center;
   }
 
 }
@@ -160,11 +197,12 @@ main > section:nth-child(2) > a {
   .topcities > section {
     margin-bottom: 20px;
   }
-
-  .h2-top {
-    justify-content: center;
-  }
 }
+
+main > section > img {
+  width: 100%;
+}
+
 
 
 .h2-top {
@@ -261,7 +299,7 @@ main > section:nth-child(2) > a {
 .watch > section > h2 {
   writing-mode: vertical-rl;
   font-size: 3rem;
-  transform: rotate(-180deg);
+  transform: rotate(180deg);
 }
 
 .watch > section > p {
