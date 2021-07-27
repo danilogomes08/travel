@@ -184,7 +184,12 @@ main > section:nth-child(2) > a {
   .container-footer {
     flex-direction: column;
     text-align: center;
+    background-image: url(https://i.imgur.com/kk0n5Sv.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
   }
+
+
 
 }
 
