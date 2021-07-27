@@ -144,18 +144,29 @@ main > section:nth-child(2) > a {
     text-align: left;
   }
 
-  .h2-top {
-    justify-content: center;
+
+  .process-responsivo {
+    justify-content: space-around;
+    height: 350px;
+    max-width: 950px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
   }
 
-/*  .process {
+ .process {
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-  }*/
+
+  }
+
+  .process > section:nth-child(3) {
+    align-self: center;
+    margin: 0 auto;
+  }
 
   .process > section {
-    display: none;
+    margin-bottom: 50px;
   }
 
   .watch {
@@ -202,6 +213,10 @@ main > section:nth-child(2) > a {
   .topcities > section {
     margin-bottom: 20px;
   }
+
+  .h2-top {
+    justify-content: center;
+  }
 }
 
 main > section > img {
@@ -247,6 +262,10 @@ main > section > img {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
+}
+
+.process-responsivo {
+  display: none;
 }
 
 .process {
