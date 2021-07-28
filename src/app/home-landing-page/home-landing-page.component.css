@@ -62,21 +62,18 @@ li {
 .icon01::before {
   content: url(https://i.imgur.com/E0yrQoA.png);
   margin-right: 30px;
-  border: solid 2px white;
   padding: 10px 15px;
 }
 
 .icon02::before {
   content: url(https://i.imgur.com/pEuPH53.png);
   margin-right: 30px;
-  border: solid 2px white;
   padding: 15px 15px;
 }
 
 .icon03::before {
   content: url(https://i.imgur.com/Oejv1Sw.png);
   margin-right: 30px;
-  border: solid 2px white;
   padding: 10px 15px;
 }
 
