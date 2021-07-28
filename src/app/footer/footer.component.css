@@ -1,0 +1,41 @@
+.container-footer {
+  margin: 100px auto 0px auto;
+  max-width: 950px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 190px 0;
+}
+
+footer {
+  background-image: url(https://i.imgur.com/xLVlUqV.png);
+  background-size: cover;  
+  flex-wrap: wrap;
+}
+
+.container-footer > section:nth-child(1) > h2 {
+  font-size: 2rem;
+}
+
+.container-footer > section > h2 {
+  margin-bottom: 30px;
+}
+
+.container-footer > section > ul > li {
+  margin-bottom: 10px;
+}
+
+.container-footer > section > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .container-footer {
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://i.imgur.com/kk0n5Sv.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+}

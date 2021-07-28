@@ -7,16 +7,19 @@ import { HelloComponent } from './hello.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeLandingPageComponent } from './home-landing-page/home-landing-page.component';
 import { RouterModule } from '@angular/router';
+import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports:[ 
     BrowserModule, 
     FormsModule,
     RouterModule.forRoot([
-      {path: '', component: HomeLandingPageComponent}
+      {path: '', component: HomeLandingPageComponent},
+      {path: 'about', component: AboutComponent}
     ])
   ],
-  declarations: [ AppComponent, HelloComponent, NavbarComponent, HomeLandingPageComponent ],
+  declarations: [ AppComponent, HelloComponent, NavbarComponent, HomeLandingPageComponent, AboutComponent, FooterComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
