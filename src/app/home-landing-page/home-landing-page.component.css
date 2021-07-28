@@ -84,9 +84,12 @@ li {
   display: block;
 }
 
+main {
+  justify-content: space-between;
+}
+
 main > section:nth-child(2) {
   max-width: 400px;
-  margin-left: 50px;
   align-self: center;
 }
 
@@ -99,6 +102,7 @@ main > section:nth-child(2) > h2 {
 main > section:nth-child(2) > p {
   font-family: 'Noto Sans';
   margin-bottom: 100px;
+  align-self: center;
 }
 
 main > section:nth-child(2) > a {
@@ -120,9 +124,8 @@ main > section:nth-child(2) > a {
   }
 
   main {
-    justify-content: center;
+    justify-content: space-around;
   }
-
 
   main > section {
     margin-bottom: 25px;
@@ -175,12 +178,12 @@ main > section:nth-child(2) > a {
   .watch > section:nth-child(3) > p {
     writing-mode: horizontal-tb;
     transform: rotate(360deg);
+    margin: 0 5% 0 5%;
   }
 
   .watch > section:nth-child(3) {
     align-self: center;
     margin-bottom: 50px;
-    justify-content: space-around;
   }
 
   .watch > section:nth-child(4) {
@@ -232,6 +235,22 @@ main > section:nth-child(2) > a {
     flex-direction: column;
     align-items: center;
   }
+
+  .icon01::before {
+    content: url(https://i.imgur.com/E0yrQoA.png);
+    border: none;
+  }
+
+  .icon02::before {
+    content: url(https://i.imgur.com/pEuPH53.png);
+    border: none;
+  }
+
+  .icon03::before {
+    content: url(https://i.imgur.com/Oejv1Sw.png);
+    border: none;
+  }
+
 }
 
 main > section > img {
