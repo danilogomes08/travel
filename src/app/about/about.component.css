@@ -134,10 +134,26 @@ button {
 
 h3 {
   font-size: 1.5rem;
-  margin-top: 5%;
+  margin: 3% 0;
 }
 
 #faq div p{
   font-family: 'Noto Sans';
   font-size: 0.90rem;
+}
+
+@media (max-width: 950px) {
+  #about {
+    flex-direction: column;
+  }
+  
+  #about div {
+    margin: 5% auto;
+  }
+
+  #about > h1 {
+  writing-mode: horizontal-tb;
+  transform: rotate(360deg)
+  }
+
 }
