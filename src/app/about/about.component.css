@@ -166,6 +166,20 @@ h3 {
   }
 
   #contac div:nth-child(2) {
-    padding: 5% 0
+    padding: 5% 0;
   }
+
+  #faq {
+    flex-direction: column;
+  }
+
+  #faq > div {
+    width: 80%;
+    margin: 0 auto
+  }
+
+  #faq-h2 {
+    font-size: 2rem;
+  }
+
 }
