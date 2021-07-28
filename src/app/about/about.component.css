@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 950px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#about {
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#about > p {
+  max-width: 400px;
+  align-self: center;
+  font-family: 'Noto Sans';
+}
+
+#about > h1 {
+  writing-mode: vertical-lr;
+  font-size: 4rem;
+  transform: rotate(180deg);
+  align-self: center;
+}
+
+#contacus {
+  background-color: white;
+  color: black;
+}
