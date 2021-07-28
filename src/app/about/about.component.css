@@ -32,7 +32,86 @@ li {
   align-self: center;
 }
 
-#contacus {
+#contac {
   background-color: white;
   color: black;
+  margin-bottom: 10%;
+}
+
+#contacus {
+  background-color: #da6d09;
+  color: white;
+  padding: 13% 5% 13% 5%;
+  
+}
+
+#contacus li {
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Sans';
+  font-size: 0.90rem;
+  margin-bottom: 10px;
+}
+
+#contacus h2 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#contacus > ul li:nth-child(1)::before {
+  content: url(https://i.imgur.com/KEuW1YS.png);
+  display: block;
+  margin-right: 5%;
+}
+
+#contacus > ul li:nth-child(2)::before {
+  content: url(https://i.imgur.com/rEX3AiG.png);
+  margin-right: 5%;
+}
+
+#contacus > ul li:nth-child(3)::before {
+  content: url(https://i.imgur.com/FKpXXV7.png);
+  display: block;
+  margin-right: 5%;
+}
+
+#contacus > ul li:nth-child(4)::before {
+  content: url(https://i.imgur.com/sHut4ZW.png);
+  display: block;
+  margin-right: 5%;
+}
+
+#contac > div > form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans';
+  font-size: 0.90rem;
+}
+
+#contac > div:nth-child(2) {
+  align-self: center;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 4%;
+}
+
+#contac > div:nth-child(2) > h2 {
+  font-size: 2rem;
+}
+
+#contac > div:nth-child(2) > p {
+  margin-bottom: 4%;
+  font-family: 'Noto Sans';
+  font-size: 0.90rem;;
+}
+
+button {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #da6d09;
+  border: none;
+  margin-top: 4%;
 }
