@@ -9,6 +9,7 @@ import { HomeLandingPageComponent } from './home-landing-page/home-landing-page.
 import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { TravelGuideComponent } from './travel-guide/travel-guide.component';
 
 @NgModule({
   imports:[ 
@@ -16,10 +17,11 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     RouterModule.forRoot([
       {path: '', component: HomeLandingPageComponent},
-      {path: 'about', component: AboutComponent}
+      {path: 'about', component: AboutComponent},
+      {path: 'travel', component: TravelGuideComponent}
     ])
   ],
-  declarations: [ AppComponent, HelloComponent, NavbarComponent, HomeLandingPageComponent, AboutComponent, FooterComponent ],
+  declarations: [ AppComponent, HelloComponent, NavbarComponent, HomeLandingPageComponent, AboutComponent, FooterComponent, TravelGuideComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
