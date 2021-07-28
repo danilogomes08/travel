@@ -104,7 +104,7 @@ input {
 #contac > div:nth-child(2) > p {
   margin-bottom: 4%;
   font-family: 'Noto Sans';
-  font-size: 0.90rem;;
+  font-size: 0.90rem;
 }
 
 button {
@@ -114,4 +114,30 @@ button {
   background-color: #da6d09;
   border: none;
   margin-top: 4%;
+  cursor: pointer;
+}
+
+
+#faq-h2 {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 2.5rem;
+}
+
+#faq {
+  justify-content: space-between;
+}
+
+#faq > div {
+  width: 48%
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+
+#faq div p{
+  font-family: 'Noto Sans';
+  font-size: 0.90rem;
 }
