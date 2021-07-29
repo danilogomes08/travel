@@ -13,10 +13,18 @@ h1 {
   font-size: 3rem;
 }
 
+a {
+  text-decoration: none;
+  color: #da6d09;
+  font-family: 'Lora';
+  font-size: 0.85rem;
+}
+
 .container {
   max-width: 950px;
   display: flex;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .alaska, .antarctique, .canada,
@@ -24,11 +32,36 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .alaska > div, .antarctique > div,
 .canada > div, .finlande > div,
 .groeland > div, .feroee > div  {
   display: flex;
+}
+
+.alaska > div:nth-child(1) > div:nth-child(2),
+.antarctique > div:nth-child(1) > div:nth-child(2),
+.canada  > div:nth-child(1) > div:nth-child(2),
+.finlande > div:nth-child(1) > div:nth-child(2),
+.groeland > div:nth-child(1) > div:nth-child(2),
+.feroee > div:nth-child(1) > div:nth-child(2) {
+  width: 250px;
+  align-self: center;
+  text-align: center;
+}
+
+.alaska > div:nth-child(2) > div:nth-child(odd),
+.antarctique > div:nth-child(2) > div:nth-child(odd),
+.canada > div:nth-child(2) > div:nth-child(odd),
+.finlande > div:nth-child(2) > div:nth-child(odd),
+.groeland > div:nth-child(2) > div:nth-child(odd),
+.feroee > div:nth-child(2) > div:nth-child(odd) { 
+  width: 250px;
+  align-self: center;
+  text-align: center;
+  font-family: 'Lora';
+  font-size: 0.85rem;
+  padding: 4%;
 }
