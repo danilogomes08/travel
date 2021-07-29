@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 5% 0;
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 950px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.alaska, .antarctique, .canada,
+.finlande, .groeland, .feroee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.alaska > div, .antarctique > div,
+.canada > div, .finlande > div,
+.groeland > div, .feroee > div  {
+  display: flex;
+}
