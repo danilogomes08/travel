@@ -48,3 +48,7 @@ footer {
     background-size: cover; 
   }
 }
+
+.container-footer > section > ul > li > a:hover {
+  color: #da6d09;
+}
