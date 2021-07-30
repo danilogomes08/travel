@@ -32,13 +32,14 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
- /* margin-bottom: 5%;*/
+  margin-bottom: 5%;
 }
 
 .alaska > div, .antarctique > div,
 .canada > div, .finlande > div,
 .groeland > div, .feroee > div  {
   display: flex;
+  
 }
 
 .alaska > div:nth-child(1) > div:nth-child(2),
@@ -64,4 +65,40 @@ a {
   font-family: 'Lora';
   font-size: 0.85rem;
   padding: 4%;
+}
+
+@media (max-width: 800px) {
+  .alaska > div,
+  .antarctique > div,
+  .canada > div,
+  .finlande > div,
+  .groeland > div,
+  .feroee > div {
+    flex-direction: column;
+  }
+
+  .alaska > div:nth-child(1) > div:nth-child(even),
+  .alaska > div:nth-child(2) > div:nth-child(odd),
+  .antarctique > div:nth-child(1) > div:nth-child(even),
+  .antarctique > div:nth-child(2) > div:nth-child(odd),
+  .canada > div:nth-child(1) > div:nth-child(even),
+  .canada > div:nth-child(2) > div:nth-child(odd),
+  .finlande > div:nth-child(1) > div:nth-child(even),
+  .finlande > div:nth-child(2) > div:nth-child(odd),
+  .groeland > div:nth-child(1) > div:nth-child(even),
+  .groeland > div:nth-child(2) > div:nth-child(odd),
+  .feroee > div:nth-child(1) > div:nth-child(even),
+  .feroee > div:nth-child(2) > div:nth-child(odd) {
+    padding: 100px 0;
+  }
+
+  .alaska > div:nth-child(1) > div:nth-child(1),
+  .antarctique > div:nth-child(1) > div:nth-child(1),
+  .canada > div:nth-child(1) > div:nth-child(1),
+  .finlande > div:nth-child(1) > div:nth-child(1),
+  .groeland > div:nth-child(1) > div:nth-child(1),
+  .feroee > div:nth-child(1) > div:nth-child(1) {
+    border-top: solid 5px #da6d09;
+  }
+
 }
