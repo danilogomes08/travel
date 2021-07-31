@@ -32,13 +32,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .alaska > div, .antarctique > div,
 .canada > div, .finlande > div,
 .groeland > div, .feroee > div  {
   display: flex;
-  
 }
 
 .alaska > div:nth-child(1) > div:nth-child(2),

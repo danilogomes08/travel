@@ -102,12 +102,12 @@ main > section:nth-child(2) > p {
   align-self: center;
 }
 
-main > section:nth-child(2) > a {
-  font-size: 1.2rem;
+main > section:nth-child(2) > a { 
   padding: 15px 30px;
   text-decoration: none;
   color: white;
   background-color: #da6d09;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 @media (max-width: 1000px) {
