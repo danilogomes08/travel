@@ -16,6 +16,13 @@ import { CanadaComponent } from './canada/canada.component';
 import { FinlandComponent } from './finland/finland.component';
 import { GreenlandComponent } from './greenland/greenland.component';
 import { FaroeIslandsComponent } from './faroe-islands/faroe-islands.component';
+import { NorthernLightsComponent } from './northern-lights/northern-lights.component';
+import { CanoeingComponent } from './canoeing/canoeing.component';
+import { SledDogComponent } from './sled-dog/sled-dog.component';
+import { CruiseComponent } from './cruise/cruise.component';
+import { FamilyComponent } from './family/family.component';
+import { ActivitiesComponent } from './activities/activities.component';
+import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
   imports:[ 
@@ -30,10 +37,15 @@ import { FaroeIslandsComponent } from './faroe-islands/faroe-islands.component';
       {path: 'canada', component: CanadaComponent},
       {path: 'faroe', component: FaroeIslandsComponent},
       {path: 'greenland', component: GreenlandComponent},
-      {path: 'finland', component: FinlandComponent}
+      {path: 'finland', component: FinlandComponent},
+      {path: 'northern', component: NorthernLightsComponent},
+      {path: 'sled', component: SledDogComponent},
+      {path: 'cruise', component: CruiseComponent},
+      {path: 'family', component: FamilyComponent}, 
+      {path: 'activities', component: ActivitiesComponent }
     ])
   ],
-  declarations: [ AppComponent, HelloComponent, NavbarComponent, HomeLandingPageComponent, AboutComponent, FooterComponent, TravelGuideComponent, AlaskaComponent, AntarcticaComponent, CanadaComponent, FinlandComponent, GreenlandComponent, FaroeIslandsComponent ],
+  declarations: [ AppComponent, HelloComponent, NavbarComponent, HomeLandingPageComponent, AboutComponent, FooterComponent, TravelGuideComponent, AlaskaComponent, AntarcticaComponent, CanadaComponent, FinlandComponent, GreenlandComponent, FaroeIslandsComponent, NorthernLightsComponent, CanoeingComponent, SledDogComponent, CruiseComponent, FamilyComponent, ActivitiesComponent, PhotosComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
