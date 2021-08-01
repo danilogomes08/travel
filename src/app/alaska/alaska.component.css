@@ -41,7 +41,7 @@ li {
 
 h1 {
   writing-mode: vertical-lr;
-  font-size: 3.5rem;
+  font-size: 3rem;
   transform: rotate(180deg);
   align-self: center;
 }
