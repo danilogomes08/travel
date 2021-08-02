@@ -39,10 +39,12 @@ import { PhotosComponent } from './photos/photos.component';
       {path: 'greenland', component: GreenlandComponent},
       {path: 'finland', component: FinlandComponent},
       {path: 'northern', component: NorthernLightsComponent},
+      {path: 'canoeing', component: CanoeingComponent},
       {path: 'sled', component: SledDogComponent},
       {path: 'cruise', component: CruiseComponent},
       {path: 'family', component: FamilyComponent}, 
-      {path: 'activities', component: ActivitiesComponent }
+      {path: 'activities', component: ActivitiesComponent},
+      {path: 'photos', component: PhotosComponent}
     ])
   ],
   declarations: [ AppComponent, HelloComponent, NavbarComponent, HomeLandingPageComponent, AboutComponent, FooterComponent, TravelGuideComponent, AlaskaComponent, AntarcticaComponent, CanadaComponent, FinlandComponent, GreenlandComponent, FaroeIslandsComponent, NorthernLightsComponent, CanoeingComponent, SledDogComponent, CruiseComponent, FamilyComponent, ActivitiesComponent, PhotosComponent ],
