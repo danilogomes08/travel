@@ -59,7 +59,6 @@ h1 {
 }
 
 .container-imagens:nth-child(2) > div:nth-child(2) {
-  /*background-color: #da6d09;*/
   width: 295px;
   align-items: center;
   display: flex;
@@ -91,3 +90,74 @@ a {
   text-align: right;
 }
 
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .alaska {
+    max-width: 533px;
+  }
+
+  .alaska > div:nth-child(1) > img {
+    position: static;
+    max-width: 100%;
+  }
+
+  .alaska > div:nth-child(1) {
+    align-self: center;
+  }
+
+  h1 {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg); 
+    margin-bottom: 5%;
+  }
+
+  .alaska > div:nth-child(2) {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 1050px) {
+  .container-imagens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagens:nth-child(1) {
+   margin-right: 0;
+   margin-bottom: 5px;
+  }
+
+  section:last-child > div > img:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .imagens > img, .container-imagens > div > img {
+    width: 330px;
+  }
+  
+  section:last-child > div > img {
+    display: block;
+  }
+
+  .container-imagens:nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-imagens:nth-child(2) > div:nth-child(1) > img:nth-child(1) {
+    margin: 0 0 5px 0;
+  }
+
+  .container-imagens:nth-child(2) > div:nth-child(2) {
+    padding: 50px 0;
+  }
+
+}
