@@ -70,13 +70,24 @@ h1 {
 }
 
 .container-imagens:nth-child(2) > div > h2 {
-  font-family:  'Noto Sans';
-  font-size: 1.5rem;
+  font-family: 'Noto Sans';
+  font-size: 3rem;
+  margin-bottom: 15px;
 }
 
 a {
   text-decoration: none;
   font-family: 'Noto Sans';
   color: #da6d09;
-  text-align: left;
+  margin-left: 5px;
+	display: block;
 }
+
+.container-imagens:nth-child(2) > div > div {
+  display: flex;
+}
+
+.container-imagens:nth-child(2) > div > div > div:nth-child(1){
+  text-align: right;
+}
+
