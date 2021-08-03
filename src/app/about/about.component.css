@@ -172,6 +172,8 @@ h3 {
   #contacus {
     margin: 0 auto;
     width: 100%;
+    position: static;
+    box-shadow: none;
   }
 
   #contac div:nth-child(2) {
