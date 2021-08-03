@@ -110,136 +110,6 @@ main > section:nth-child(2) > a {
   font-family: 'Noto Sans', sans-serif;
 }
 
-@media (max-width: 1000px) {
-
-  .canada > p {
-    text-align: center;
-  }
-
-  .icons {
-    justify-content: space-around;
-  }
-
-  main {
-    justify-content: space-around;
-  }
-
-  main > section {
-    margin-bottom: 25px;
-  }
-
-  main > section:nth-child(2) {
-    text-align: center;
-  }
-
-  main > section:nth-child(2) > h2, p {
-    text-align: left;
-  }
-
-  .process-responsivo {
-    justify-content: space-around;
-    height: 350px;
-    max-width: 950px;
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
-
- .process {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .process > section:nth-child(3) {
-    align-self: center;
-    margin: 0 auto;
-  }
-
-  .process > section {
-    margin-bottom: 50px;
-  }
-
-  .watch {
-    flex-direction: column;
-    padding-top: 50%;
-  }
-
-  .watch > section:nth-child(2) > h2 {
-    writing-mode: horizontal-tb;
-    transform: rotate(360deg);
-    margin: 50px auto 50px auto;
-    text-align: center;
-  }
-
-  .watch > section:nth-child(3) > p {
-    writing-mode: horizontal-tb;
-    transform: rotate(360deg);
-    margin: 0 5% 0 5%;
-  }
-
-  .watch > section:nth-child(3) {
-    align-self: center;
-    margin-bottom: 50px;
-  }
-
-  .watch > section:nth-child(4) {
-    align-self: center;
-  }
-
-  .watchimg > img {
-    width: 350px;
-    margin: 0 auto;
-  }
-
-  .marcas > img {
-    width: 100px;
-    margin-bottom: 50px;
-  }
-
-  .marcas {
-    flex-direction: column;
-    align-content: center;
-  } 
-}
-
-@media (max-width: 1250px) {
-  .topcities {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .topcities > section {
-    margin-bottom: 20px;
-  }
-
-  .h2-top {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 800px) {
-  .icons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .icon01::before {
-    content: url(https://i.imgur.com/E0yrQoA.png);
-    border: none;
-  }
-
-  .icon02::before {
-    content: url(https://i.imgur.com/pEuPH53.png);
-    border: none;
-  }
-
-  .icon03::before {
-    content: url(https://i.imgur.com/Oejv1Sw.png);
-    border: none;
-  }
-
-}
-
 main > section > img {
   width: 100%;
 }
@@ -359,3 +229,136 @@ main > section > img {
 .marcas {
   justify-content: space-between;
 }
+
+
+@media (max-width: 1000px) {
+
+  .canada > p {
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: space-around;
+  }
+
+  main {
+    justify-content: space-around;
+  }
+
+  main > section {
+    margin-bottom: 25px;
+  }
+
+  main > section:nth-child(2) {
+    text-align: center;
+  }
+
+  main > section:nth-child(2) > h2, p {
+    text-align: left;
+  }
+
+  .process-responsivo {
+    justify-content: space-around;
+    height: 350px;
+    max-width: 950px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+ .process {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .process > section:nth-child(3) {
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .process > section {
+    margin-bottom: 50px;
+  }
+
+  .watch {
+    flex-direction: column;
+    padding-top: 50%;
+  }
+
+  .watch > section:nth-child(2) > h2 {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+
+  .watch > section:nth-child(3) > p {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+    margin: 0 5% 0 5%;
+    max-width: 400px;
+  }
+
+  .watch > section:nth-child(3) {
+    align-self: center;
+    margin-bottom: 50px;
+  }
+
+  .watch > section:nth-child(4) {
+    align-self: center;
+  }
+
+  .watchimg > img {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .marcas > img {
+    width: 100px;
+    margin-bottom: 50px;
+  }
+
+  .marcas {
+    flex-direction: column;
+    align-content: center;
+  } 
+}
+
+@media (max-width: 1250px) {
+  .topcities {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topcities > section {
+    margin-bottom: 20px;
+  }
+
+  .h2-top {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon01::before {
+    content: url(https://i.imgur.com/E0yrQoA.png);
+    border: none;
+  }
+
+  .icon02::before {
+    content: url(https://i.imgur.com/pEuPH53.png);
+    border: none;
+  }
+
+  .icon03::before {
+    content: url(https://i.imgur.com/Oejv1Sw.png);
+    border: none;
+  }
+
+}
+
