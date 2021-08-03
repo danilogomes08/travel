@@ -22,6 +22,7 @@ li {
 .logo-menu a {
   text-decoration: none;
   font-size: 2.3rem;
+  font-family: 'Lora';
 }
 
 .menu-nav ul {
@@ -35,6 +36,7 @@ li {
   margin-right: 40px;
   display: block;
   font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
 } 
 
 a:hover {

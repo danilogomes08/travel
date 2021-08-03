@@ -35,7 +35,7 @@ li {
 
 .alaska > div:nth-child(2) {
   align-self: center;
-  font-family:  'Noto Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.90rem;
 }
 
@@ -44,6 +44,7 @@ h1 {
   font-size: 3rem;
   transform: rotate(180deg);
   align-self: center;
+  font-family: 'Lora';
 }
 
 .container-imagens {
@@ -69,14 +70,14 @@ h1 {
 }
 
 .container-imagens:nth-child(2) > div > h2 {
-  font-family: 'Noto Sans';
+  font-family: 'Lora';
   font-size: 3rem;
   margin-bottom: 15px;
 }
 
 a {
   text-decoration: none;
-  font-family: 'Noto Sans';
+  font-family: 'Open Sans', sans-serif;
   color: #da6d09;
   margin-left: 5px;
 	display: block;

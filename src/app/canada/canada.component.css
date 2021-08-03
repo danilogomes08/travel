@@ -31,6 +31,7 @@ li {
 
 .alaska > div:nth-child(2) > p {
   padding: 8%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .alaska > div:nth-child(2) {
@@ -44,35 +45,42 @@ h1 {
   font-size: 3rem;
   transform: rotate(180deg);
   align-self: center;
+  font-family: 'Lora';
 }
 
 .h2-top {
   font-size: 3rem;
   max-width: 950px;
-  display: flex;
-  margin: 100px auto;
-  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Lora';
 }
 
 .topcities {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10%;
+  margin-bottom: 100px;
 }
 
 .topcities > section > h3 {
   font-size: 2rem;
   margin: 20px 0;
+  font-family: 'Lora';
 }
 
 .topcities > section > p:nth-child(3) {
   font-size: 1.5rem;
 }
 
+.topcities > section > p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .topcities > section > section {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  font-family: 'Lora';
 }
 
 .topcities > section > section > a {

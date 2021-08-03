@@ -27,7 +27,7 @@ li {
 }
 
 .canada > p {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem
 }
 
@@ -38,7 +38,7 @@ li {
 }
 
 .canada > a {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
   border: solid 2px white;
   padding: 15px 30px;
@@ -55,7 +55,7 @@ li {
 .icon {
   display: flex;
   align-items: center;
-  font-family: 'Noto Sans';
+  font-family: 'Open Sans', sans-serif;
   margin-top: 50px;
 }
 
@@ -97,7 +97,7 @@ main > section:nth-child(2) > h2 {
 }
 
 main > section:nth-child(2) > p {
-  font-family: 'Noto Sans';
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 100px;
   align-self: center;
 }
@@ -107,7 +107,7 @@ main > section:nth-child(2) > a {
   text-decoration: none;
   color: white;
   background-color: #da6d09;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main > section > img {
@@ -119,6 +119,7 @@ main > section > img {
   max-width: 950px;
   margin-top: 100px;
   margin-bottom: 100px;
+  font-family: 'Lora';
 }
 
 .topcities {
@@ -130,16 +131,22 @@ main > section > img {
 .topcities > section > h3 {
   font-size: 2rem;
   margin: 20px 0;
+  font-family: 'Lora';
 }
 
 .topcities > section > p:nth-child(3) {
   font-size: 1.5rem;
 }
 
+.topcities > section > p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .topcities > section > section {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  font-family: 'Lora';
 }
 
 .topcities > section > section > a {
@@ -151,10 +158,7 @@ main > section > img {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
-}
-
-.process-responsivo {
-  display: none;
+  font-family: 'Lora';
 }
 
 .process {
@@ -163,11 +167,13 @@ main > section > img {
   max-width: 950px;
   display: flex;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .process > section > h3 {
   font-size: 3.5rem;
   color: #6f6f6f;
+  font-family: 'Lora';
 }
 
 .container-no-wrap {
@@ -213,12 +219,13 @@ main > section > img {
   writing-mode: vertical-rl;
   font-size: 3rem;
   transform: rotate(180deg);
+  font-family: 'Lora';
 }
 
 .watch > section > p {
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
-  font-family: 'Noto Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.87rem;
 }
 

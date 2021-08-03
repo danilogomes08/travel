@@ -22,9 +22,9 @@ footer {
   flex-wrap: wrap;
 }
 
-
-.container-footer > section > h2 {
+h2 {
   margin-bottom: 30px;
+  font-family: 'Lora';
 }
 
 .container-footer > section > ul > li {
@@ -34,6 +34,7 @@ footer {
 .container-footer > section > ul > li > a {
   text-decoration: none;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 1000px) {
