@@ -36,12 +36,21 @@ li {
   background-color: white;
   color: black;
   margin-bottom: 10%;
+  box-shadow: 0 0 10px #363636;
+  max-width: 800px;
+  display: flex;
+  margin: 100px auto 100px auto;
+  padding: 50px 0;
 }
+
 
 #contacus {
   background-color: #da6d09;
   color: white;
   padding: 13% 5% 13% 5%;
+  position: relative;
+  right: 50px;
+  box-shadow: 0 0 10px #363636;
 }
 
 #contacus li {
@@ -89,7 +98,7 @@ li {
 
 #contac > div:nth-child(2) {
   align-self: center;
-  margin: 0 auto;
+
 }
 
 input {
