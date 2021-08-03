@@ -22,9 +22,6 @@ footer {
   flex-wrap: wrap;
 }
 
-.container-footer > section:nth-child(1) > h2 {
-  font-size: 2rem;
-}
 
 .container-footer > section > h2 {
   margin-bottom: 30px;
